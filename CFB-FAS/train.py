@@ -374,7 +374,7 @@ def parse_args():
     parser.add_argument('--result_path', type=str, default='./results', help='root result directory')
     parser.add_argument('--protocol', type=str, default="O_C_I_to_M", help='O_C_I_to_M, O_M_I_to_C, O_C_M_to_I, I_C_M_to_O, O_to_O')
     # training settings
-    parser.add_argument('--model_type', type=str, default="ResNet18_lgt", help='model_type')
+    parser.add_argument('--model_type', type=str, default="ResNet18_cfb", help='model_type')
     parser.add_argument('--eval_preq', type=int, default=1, help='batch size')
     parser.add_argument('--img_size', type=int, default=256, help='img size')
 
